@@ -1,0 +1,1610 @@
+{
+  "settings": {
+    "name": "Navonia",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise-amp",
+      "title": "Mobirise AMP",
+      "styling": {
+        "primaryColor": "#3aa5e4",
+        "secondaryColor": "#170ca4",
+        "successColor": "#4b40d2",
+        "infoColor": "#017fca",
+        "warningColor": "#3aa5e4",
+        "dangerColor": "#00dcc0",
+        "mainFont": "Inter",
+        "display1Font": "Inter",
+        "display1Size": 4,
+        "display2Font": "Inter",
+        "display2Size": 3.25,
+        "display5Font": "Inter",
+        "display5Size": 1.8,
+        "display7Font": "Inter",
+        "display7Size": 1.2,
+        "display4Font": "Inter",
+        "display4Size": 1,
+        "isRoundedButtons": true,
+        "isScrollToTopButton": true,
+        "arrowColor": "#3aa5e4"
+      },
+      "additionalSetColors": [
+        "#b99494",
+        "#2d8410",
+        "#030021"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.3.5",
+    "siteFonts": [
+      {
+        "css": "'Inter', sans-serif",
+        "name": "Inter",
+        "url": "https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900"
+      }
+    ],
+    "imageResize": true,
+    "uniqCompNum": 44,
+    "versionPublish": "5.4.1",
+    "screenshot": "screenshot.png",
+    "favicon": false,
+    "mbrsiteDomain": "ycuqljszkf",
+    "robotsSwitcher": true,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "https://navonia.tk",
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#dedede",
+      "colorBg": "#000000",
+      "colorButton": "",
+      "colorLink": "#3aa5e4",
+      "underlineLink": false,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "Nuestro sitio usa cookies. para saber mas visite nuestra <a href='politica-de-privacidad.html' target:'_blank'>política de privacidad</a>.",
+      "textButton": "Aceptar"
+    },
+    "gdpr": false,
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-206390725-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n  gtag('config', 'UA-206390725-1');\n</script>\n<!-- /Analytics -->\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-F5T7F2PQ5V\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n  gtag('config', 'G-F5T7F2PQ5V');\n</script>",
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "canonical-url": "http://index.html"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "#Navonia",
+        "meta_descr": "Desde el imaginario de usuari@s de noise.cash nace este lugar ... #Navonia",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/favicon-80x80.png"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "min-height": "56px",
+            "background-color": "@menuBgColor",
+            ".brand-name": {
+              "margin-right": "2rem",
+              "margin-top": "6px",
+              "a": {
+                "font-weight": "700"
+              },
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".menu-container": {
+              "padding": "0 30px"
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background": "@hamburgerColor"
+            },
+            ".nav-dropdown .dropdown-menu .dropdown-item": {
+              "font-weight": "700",
+              "width": "100%",
+              "text-align": "inherit"
+            },
+            "a.nav-link": {
+              "font-weight": "700"
+            },
+            ".navbar": {
+              "min-height": "56px",
+              "background": "@menuBgColor",
+              ".navbar-collapse": {
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "padding": "0",
+              "margin": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".navbar-expand-lg .navbar-nav .nav-link": {
+                "padding": "13px 0"
+              },
+              ".navbar-nav .nav-link": {
+                "margin": "0"
+              },
+              ".navbar-nav .nav-item": {
+                "margin": "0 18px -5px !important"
+              },
+              ".navbar-buttons": {
+                "margin-left": "2rem"
+              }
+            },
+            ".navbar-buttons .btn": {
+              "box-shadow": "none !important",
+              "transform": "none !important"
+            },
+            ".builder-sidebar, .collapse, .navbar.navbar-expand-lg .dropdown .dropdown-menu": {
+              "background-color": "@menuBgColor"
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-nav a": {
+                "padding": "0 !important",
+                "margin": "0 0 1rem !important"
+              },
+              ".dropdown-menu": {
+                "padding": "0"
+              }
+            },
+            ".close-sidebar:focus": {
+              "outline": "2px auto @primaryColor"
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "img": {
+                "height": "~\"@{logoHeight}px\" !important",
+                "object-fit": "contain"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Altura Logo\" inline=\"\" name=\"logoHeight\" min=\"30\" max=\"120\" value=\"35\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Ancho Logo\" inline=\"\" name=\"logoWidth\" min=\"30\" max=\"120\" value=\"35\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked=\"\">\n        <header>Style</header>\n        <input type=\"checkbox\" title=\"Fijar Menú\" name=\"sticky\" checked=\"\">\n        <select title=\"Lado de la barra lateral\" name=\"sidebarSide\">\n            <option value=\"left\" selected=\"\">Izquierda</option>\n            <option value=\"right\">Derecha</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/favicon-80x80.png\" layout=\"responsive\" width=\"35\" height=\"35\" alt=\"#Navonia\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/favicon-80x80.png\" alt=\"#Navonia\" data-aspectratio=\"1\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\">#Navonia</p></div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-home mbr-iconfont mbr-iconfont-btn\"></span>Inicio</a>\n                    \n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"index.html#content1-o\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-user mbr-iconfont mbr-iconfont-btn\"></span>Nosotros</a>\n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"NFT.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-photo mbr-iconfont mbr-iconfont-btn\"></span>NFT</a>\n                </li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"preguntas-frecuentes.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-info mbr-iconfont mbr-iconfont-btn\"></span>Preguntas</a></li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://noise.cash/search?q=%23Navonia\" data-app-placeholder=\"Type Text\" target=\"_blank\">#Navonia</a> <a class=\"btn btn-sm btn-white\" href=\"https://noise.cash/search?q=%23Sarasa\" data-app-placeholder=\"Type Text\" target=\"_blank\">#Sarasa</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_cid": "sHfxequYvf",
+          "_anchor": "menu2-0",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value",
+              "& when (@twoColor)": {
+                "background": "linear-gradient(225deg, @bg-value 0, @twoColorBg 75%)"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            }
+          },
+          "_name": "header4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"header4\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Pantalla Completa\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/circulodebaba.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"2 Color\" name=\"twoColor\" condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" value=\"#20202a\" name=\"twoColorBg\" condition=\"twoColor && bg.type == 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-fonts-style mbr-section-title align-left mbr-white mbr-bold mbr-pb-2\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Bienvenidos a <a href=\"https://noise.cash/search?q=%23Navonia\" class=\"text-primary\" target=\"_blank\"><i>#Navonia</i></a></h1>\n        <h2 class=\"mbr-fonts-style mbr-section-subtitle align-left mbr-white mbr-semibold mbr-pb-3\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\">Desde el imaginario de usuari@s de noise.cash nace este lugar ... <a href=\"https://noise.cash/search?q=%23Navonia\" class=\"text-primary\" target=\"_blank\"><i>#Navonia</i></a><br><br>- Web Descentralizada ✅<br>- Políticamente Incorrecta ✅<br>- Inmoral ✅<br>- Ociosa ✅<br>- Sarasaseña ✅<br>- #BotPublicadorPorBCH ✅<br>- #Navonia Non-Fungible Tokens (<a href=\"NFT.html\" class=\"text-primary\">NFT</a>) ✅</h2>\n        <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-white\" href=\"index.html#content1-o\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-user mbr-iconfont mbr-iconfont-btn\"></span>Nosotros<br></a> <a class=\"btn btn-md btn-secondary\" href=\"NFT.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-photo mbr-iconfont mbr-iconfont-btn\"></span>NFT<br></a> <a class=\"btn btn-md btn-success\" href=\"https://noise.cash/search?q=%23Navonia\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-volume-up mbr-iconfont mbr-iconfont-btn\"></span>#Navonia en Noise<br></a> <a class=\"btn btn-md btn-success\" href=\"https://noise.cash/search?q=%23Sarasa\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"fa fa-volume-up mbr-iconfont mbr-iconfont-btn\"></span>#Sarasa en Noise<br></a></div>\n    </div>\n</section>",
+          "_cid": "sHfxgJ1hJp",
+          "_anchor": "header4-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Style</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" title=\"Ancho\" name=\"textWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/fuga.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-md-12 mbr-col-lg-{{textWidth}}\">\n                <p class=\"mbr-text align-center mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    propaganda</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sIt0Hcokqc",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-n"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            ".image-block": {
+              "& when not (@fullWidth)": {
+                "width": "~\"@{videoSize}%\"",
+                "img": {
+                  "border-radius": "10px"
+                },
+                "& when not (@showText)": {
+                  "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)",
+                  "border-radius": "10px"
+                },
+                "@media (max-width: 767px)": {
+                  "width": "100% !important"
+                }
+              }
+            },
+            "img": {
+              "object-fit": "contain"
+            }
+          },
+          "_name": "image1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"image1\" group=\"Images & Videos\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\" condition=\"fullWidth == false\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Ancho\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"65\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Caption\" name=\"showText\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"image-block mbr-m-auto\">\n            <amp-img src=\"@PROJECT_PATH@/assets/images/navoniacompudibu-1646x950.png\" layout=\"responsive\" width=\"1344.9829852631578\" height=\"776.266\" alt=\"Navonia NFT Mapa Compu\" class=\"mobirise-loader\">\n                <div placeholder class=\"placeholder\"></div>\n                <a href=\"NFT.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/navoniacompudibu-1646x950.png\" alt=\"Navonia NFT Mapa Compu\" data-aspectratio=\"0.6666666666666666\"></a>\n            </amp-img>\n            <div class=\"mbr-figure-caption\" mbr-if=\"showText\">\n                <p mbr-text class=\"mbr-text mbr-black align-center mbr-fonts-style\" mbr-class=\"{'mbr-py-1': !fullWidth, 'mbr-py-1 mbr-px-4': fullWidth}\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    ¡Crea sitios web increíbles y RÁPIDOS!\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sItqfLBKer",
+          "_anchor": "image1-17",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Style</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" title=\"Ancho\" name=\"textWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/kike9781.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-md-12 mbr-col-lg-{{textWidth}}\">\n                <p class=\"mbr-text align-center mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    propaganda</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-t",
+          "_isUserblock": true,
+          "_cid": "sIt2joBX8y",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "color": "#017fca"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"mbr-section 01\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/cannawix.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n     <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\">El grupo de inadaptados que componen a <i>#Navonia</i></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\" class=\"mbr-section-subtitle align-center mbr-regular mbr-pt-2 mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Dale forma a tu futuro proyecto web con un diseño nítido y funciones codificadas depuradas.\n                </h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://noise.cash/search?q=%23Navonia\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mobi-mbri mobi-mbri-globe-2 mbr-iconfont mbr-iconfont-btn\"></span>Sumate a #Navonia</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-o",
+          "_isUserblock": true,
+          "_cid": "sIt1LfMAMM",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              ".card-wrapper": {
+                "border-radius": "10px",
+                "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)",
+                "background": "@cardBg",
+                "@media (max-width: 767px)": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".card-img amp-img": {
+              "width": "50%"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "3px"
+            },
+            ".card-box": {
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              }
+            },
+            "& when (@showSocial)": {
+              ".iconfont-wrapper, .amp-iconfont": {
+                "width": "~\"@{iconsSize}rem\"",
+                "height": "~\"@{iconsSize}rem\"",
+                "font-size": "~\"@{iconsSize}rem\"",
+                "color": "@iconsColor",
+                "margin": "10px 10px 0 0",
+                "transition": "all .2s",
+                "&:hover": {
+                  "color": "lighten(@iconsColor, 30)"
+                },
+                "& when ((@iconsSize * 16) > 30)": {
+                  "@media (max-width: 767px)": {
+                    "font-size": "30px",
+                    "height": "30px",
+                    "width": "30px"
+                  }
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#dedede"
+            },
+            ".mbr-text, .social": {
+              "color": "#dedede"
+            }
+          },
+          "_name": "team1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"team1 mbr-section\" group=\"Testimonials &amp; Teams\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Specialty\" name=\"showSpecialty\">\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <select title=\"Tarjetas\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Card BG\" name=\"cardBg\" value=\"#000000\">\n        <header>Social</header>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Count\" name=\"iconsCount\" min=\"1\" max=\"5\" step=\"1\" value=\"1\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"iconsColor\" value=\"#dedede\" condition=\"showSocial\">\n        <input type=\"range\" inline=\"\" title=\"Size\" name=\"iconsSize\" min=\"0.8\" max=\"4\" step=\"0.1\" value=\"4\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/maryfel43.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"\" mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'md-pb': cardsAmount > 2, 'last-child': cardsAmount == 1}\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/yo-pelado-low-poly-253x344.jpeg\" layout=\"responsive\" width=\"174\" height=\"174\" alt=\"Navone Juan\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/NavoneJuan\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/yo-pelado-low-poly-253x344.jpeg\" alt=\"Navone Juan\" title=\"\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">ARTIST</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">Navone Juan</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">Fundador y primer habitante.<br>Terrateniente del 82% de #Navonia.<br>Generoso por demás.<br>Soluciona lo imposible.<br>Adicto a la sacudida de ganso.</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/NavoneJuan\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'md-pb': cardsAmount > 2, 'last-child': cardsAmount == 2}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/mwwm-1.webp\" layout=\"responsive\" height=\"174\" width=\"174\" alt=\"MwwM\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/MwwM\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/mwwm-1.webp\" alt=\"MwwM\" title=\"\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">DESIGNER</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">MwwM</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">Organiza pegol de estado.<br>Ludopata nivel 7.<br>Dice que trabaja y se rasca.<br>Conductora de camiones hidrantes.<br>Le sangra la nariz cuando se baña.</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/MwwM\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'last-child': cardsAmount == 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/cannawix.webp\" layout=\"responsive\" height=\"174\" width=\"174\" alt=\"Cannawix\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/Cannawix\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/cannawix.webp\" alt=\"Cannawix\" title=\"\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">PHOTOGRAPHER</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">\n                            Cannawix</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">Dealer autorizado de #Navonia.<br>Miembro premium de +18 sites.<br>Lo llaman Romeo.<br>Proveedor de planes sociales.<br>Cuando bebe se pone mimoso.</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/Cannawix\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'last-child': cardsAmount == 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper mbr-pt-5 \">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/fuga.webp\" layout=\"responsive\" height=\"9\" width=\"16\" alt=\"fuga\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/fuga\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/fuga.webp\" alt=\"fuga\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">WEB MARKETER</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">fuga</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">Cara de casi todos los ministerios.<br>La \"medusa\" de las palabras.<br>Ataque discreto en carácteres.<br>Repartidora de patadas voladoras.<br>Futura abuela de mil gatitos.</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/fuga\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "team1-p",
+          "_isUserblock": true,
+          "_cid": "sIt1LNoYHO",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Style</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" title=\"Ancho\" name=\"textWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/nicothp.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-md-12 mbr-col-lg-{{textWidth}}\">\n                <p class=\"mbr-text align-center mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    propaganda</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-u",
+          "_isUserblock": true,
+          "_cid": "sIt2kOrmWR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              ".card-wrapper": {
+                "border-radius": "10px",
+                "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)",
+                "background": "@cardBg",
+                "@media (max-width: 767px)": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".card-img amp-img": {
+              "width": "50%"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "3px"
+            },
+            ".card-box": {
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              }
+            },
+            "& when (@showSocial)": {
+              ".iconfont-wrapper, .amp-iconfont": {
+                "width": "~\"@{iconsSize}rem\"",
+                "height": "~\"@{iconsSize}rem\"",
+                "font-size": "~\"@{iconsSize}rem\"",
+                "color": "@iconsColor",
+                "margin": "10px 10px 0 0",
+                "transition": "all .2s",
+                "&:hover": {
+                  "color": "lighten(@iconsColor, 30)"
+                },
+                "& when ((@iconsSize * 16) > 30)": {
+                  "@media (max-width: 767px)": {
+                    "font-size": "30px",
+                    "height": "30px",
+                    "width": "30px"
+                  }
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#dedede"
+            },
+            ".mbr-text, .social": {
+              "color": "#dedede"
+            }
+          },
+          "_name": "team1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"team1 mbr-section\" group=\"Testimonials &amp; Teams\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Specialty\" name=\"showSpecialty\">\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <select title=\"Tarjetas\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Card BG\" name=\"cardBg\" value=\"#000000\">\n        <header>Social</header>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Count\" name=\"iconsCount\" min=\"1\" max=\"5\" step=\"1\" value=\"1\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showSocial\">\n        <input type=\"range\" inline=\"\" title=\"Size\" name=\"iconsSize\" min=\"0.8\" max=\"4\" step=\"0.1\" value=\"4\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/yo-pelado-low-poly-253x344.jpeg\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"\" mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'md-pb': cardsAmount > 2, 'last-child': cardsAmount == 1}\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/fuga.webp\" layout=\"responsive\" width=\"174\" height=\"174\" alt=\"fuga\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/fuga\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/fuga.webp\" alt=\"fuga\" title=\"\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">ARTIST</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">fuga</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">Cara de casi todos los ministerios.\n<br>La \"medusa\" de las palabras.\n<br>Ataque discreto en carácteres.\n<br>Repartidora de patadas voladoras.\n<br>Futura abuela de mil gatitos.</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/fuga\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'md-pb': cardsAmount > 2, 'last-child': cardsAmount == 2}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/circulodebaba.webp\" layout=\"responsive\" height=\"174\" width=\"174\" alt=\"Circulodebaba\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/Circulodebaba\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/circulodebaba.webp\" alt=\"Circulodebaba\" title=\"\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">DESIGNER</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">Circulodebaba</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">Destacado por su alegría.\n<br>Odiador serial de arepas.\n<br>Ludopata nivel 2.\n<br>Comprador compulsivo en ML.\n<br>Enamorado de una atornilladora.</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/Circulodebaba\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'last-child': cardsAmount == 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/kike9781.webp\" layout=\"responsive\" height=\"174\" width=\"174\" alt=\"Kike9781\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/Kike9781\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/kike9781.webp\" alt=\"Kike9781\" title=\"\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">PHOTOGRAPHER</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">\n                            Kike9781</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">Espía Ruso.\n<br>Se infiltra entre arepas y flores.\n<br>Comodín en todas las áreas.\n<br>Propenso a la traición de la patria.\n<br>Se enoja con los cortes de luz.</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/Kike9781\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'last-child': cardsAmount == 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper mbr-pt-5 \">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/tokoloshe85.webp\" layout=\"responsive\" height=\"9\" width=\"16\" alt=\"Tokoloshe85\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/Tokoloshe85\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/tokoloshe85.webp\" alt=\"Tokoloshe85\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">WEB MARKETER</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">Tokoloshe85</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            Operador en Wallstreet.<br>Te genera 3 PBI sin invertir.<br>Lo llama uste', entonces vá.<br>Inversor en negocios de riesgo.<br>Proclive a sobredosis de mate.</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/Tokoloshe85\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "team1-q",
+          "_isUserblock": true,
+          "_cid": "sIt1M9XIO6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Style</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" title=\"Ancho\" name=\"textWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/tokoloshe85.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-md-12 mbr-col-lg-{{textWidth}}\">\n                <p class=\"mbr-text align-center mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    propaganda</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-v",
+          "_isUserblock": true,
+          "_cid": "sIt2nkPfuW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              ".card-wrapper": {
+                "border-radius": "10px",
+                "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)",
+                "background": "@cardBg",
+                "@media (max-width: 767px)": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".card-img amp-img": {
+              "width": "50%"
+            },
+            ".mbr-section-subtitle": {
+              "letter-spacing": "3px"
+            },
+            ".card-box": {
+              "@media (max-width: 767px)": {
+                "padding": "1rem"
+              }
+            },
+            "& when (@showSocial)": {
+              ".iconfont-wrapper, .amp-iconfont": {
+                "width": "~\"@{iconsSize}rem\"",
+                "height": "~\"@{iconsSize}rem\"",
+                "font-size": "~\"@{iconsSize}rem\"",
+                "color": "@iconsColor",
+                "margin": "10px 10px 0 0",
+                "transition": "all .2s",
+                "&:hover": {
+                  "color": "lighten(@iconsColor, 30)"
+                },
+                "& when ((@iconsSize * 16) > 30)": {
+                  "@media (max-width: 767px)": {
+                    "font-size": "30px",
+                    "height": "30px",
+                    "width": "30px"
+                  }
+                }
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#dedede"
+            },
+            ".mbr-text, .social": {
+              "color": "#dedede",
+              "text-align": "center"
+            }
+          },
+          "_name": "team1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"team1 mbr-section\" group=\"Testimonials &amp; Teams\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Specialty\" name=\"showSpecialty\">\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <select title=\"Tarjetas\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected=\"\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Card BG\" name=\"cardBg\" value=\"#000000\">\n        <header>Social</header>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Count\" name=\"iconsCount\" min=\"1\" max=\"5\" step=\"1\" value=\"1\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showSocial\">\n        <input type=\"range\" inline=\"\" title=\"Size\" name=\"iconsSize\" min=\"0.8\" max=\"4\" step=\"0.1\" value=\"4\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/fuga.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class=\"\" mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'md-pb': cardsAmount > 2, 'last-child': cardsAmount == 1}\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/nicothp.webp\" layout=\"responsive\" width=\"174\" height=\"174\" alt=\"Nicothp\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/Nicothp\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/nicothp.webp\" alt=\"Nicothp\" title=\"\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">ARTIST</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">Nicothp</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">Arquitecto moderno.\n<br>Come alfajores en el Roca.\n<br>No se abriga cuando labura.\n<br>Le das una hoja y levanta un ph.\n<br>Inspector de zócalos y billeteras.<br></p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/Nicothp\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'md-pb': cardsAmount > 2, 'last-child': cardsAmount == 2}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/tokoloshe85.webp\" layout=\"responsive\" height=\"174\" width=\"174\" alt=\"Tokoloshe85\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/Tokoloshe85\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/tokoloshe85.webp\" alt=\"Tokoloshe85\" title=\"\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">DESIGNER</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">Tokoloshe85</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">Operador en Wallstreet.\n<br>Te genera 3 PBI sin invertir.\n<br>Lo llama uste', entonces va.\n<br>Inversor en negocios de riesgo.\n<br>Proclive a sobredosis de mate.</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/Tokoloshe85\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        \n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'last-child': cardsAmount == 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper mbr-pt-5\">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/maryfel43.webp\" layout=\"responsive\" height=\"174\" width=\"174\" alt=\"Maryfel43\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <a href=\"https://noise.cash/u/Maryfel43\" target=\"_blank\"><img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/maryfel43.webp\" alt=\"Maryfel43\" title=\"\" data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">PHOTOGRAPHER</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">\n                            Maryfel43</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">Se autoproclama \"la única cuerda\" de Navonia.\n<br>Su casa es un zoológico.<br>&nbsp;Ministra de Turismo en #Navonia.<br>Saluda cuando entra y cuando se va.</p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://noise.cash/u/Maryfel43\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-money fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card mbr-col-sm-12 mbr-col-md-6\" mbr-class=\"{'mbr-col-lg-4': cardsAmount <= 3,\n                             'mbr-col-lg-3': cardsAmount > 3, 'last-child': cardsAmount == 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper mbr-pt-5 \">\n                    <div class=\"card-img\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/favicon-80x80.png\" layout=\"responsive\" height=\"9\" width=\"16\" alt=\"image\" class=\"mobirise-loader rounded mbr-m-auto\">\n                            <div placeholder=\"\" class=\"placeholder\"></div>\n                            <img class=\"mbr-temp rounded\" src=\"@PROJECT_PATH@/assets/images/favicon-80x80.png\" alt=\"\" data-aspectratio=\"1\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-pt-4 mbr-px-4 mbr-pb-5\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">WEB MARKETER</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title\" mbr-class=\"{'mbr-pb-2': showText}\">Navoni@</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            Navoni@\n                        </p>\n                        <div class=\"icons-list social align-center\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "team1-r",
+          "_isUserblock": true,
+          "_cid": "sIt1NdLYfY",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Style</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" title=\"Ancho\" name=\"textWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/nicothp.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-md-12 mbr-col-lg-{{textWidth}}\">\n                <p class=\"mbr-text align-center mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    propaganda</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-s",
+          "_isUserblock": true,
+          "_cid": "sIt2j3ueR7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/circulodebaba.webp\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                <i><b><a href=\"https://noise.cash/search?q=%23Navonia\" class=\"text-primary\" target=\"_blank\">#Navonia</a> </b></i>- <b>DWeb</b> - ❤ &amp; ☕<br><a href=\"politica-de-privacidad.html\" class=\"text-primary\"><i>Política de Privacidad</i></a><br></p>\n        </div>\n    </div>\n</section>",
+          "_cid": "sHfyz4wdDy",
+          "_anchor": "footer1-2",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    },
+    "NFT.html": {
+      "settings": {
+        "title": "Navonia NFT",
+        "order": 1,
+        "meta_descr": "#Navonia - Proyecto NFT",
+        "meta_image": "@PROJECT_PATH@/assets/images/favicon-80x80.png"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "min-height": "56px",
+            "background-color": "@menuBgColor",
+            ".brand-name": {
+              "margin-right": "2rem",
+              "margin-top": "6px",
+              "a": {
+                "font-weight": "700"
+              },
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".menu-container": {
+              "padding": "0 30px"
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background": "@hamburgerColor"
+            },
+            ".nav-dropdown .dropdown-menu .dropdown-item": {
+              "font-weight": "700",
+              "width": "100%",
+              "text-align": "inherit"
+            },
+            "a.nav-link": {
+              "font-weight": "700"
+            },
+            ".navbar": {
+              "min-height": "56px",
+              "background": "@menuBgColor",
+              ".navbar-collapse": {
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "padding": "0",
+              "margin": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".navbar-expand-lg .navbar-nav .nav-link": {
+                "padding": "13px 0"
+              },
+              ".navbar-nav .nav-link": {
+                "margin": "0"
+              },
+              ".navbar-nav .nav-item": {
+                "margin": "0 18px -5px !important"
+              },
+              ".navbar-buttons": {
+                "margin-left": "2rem"
+              }
+            },
+            ".navbar-buttons .btn": {
+              "box-shadow": "none !important",
+              "transform": "none !important"
+            },
+            ".builder-sidebar, .collapse, .navbar.navbar-expand-lg .dropdown .dropdown-menu": {
+              "background-color": "@menuBgColor"
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-nav a": {
+                "padding": "0 !important",
+                "margin": "0 0 1rem !important"
+              },
+              ".dropdown-menu": {
+                "padding": "0"
+              }
+            },
+            ".close-sidebar:focus": {
+              "outline": "2px auto @primaryColor"
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "img": {
+                "height": "~\"@{logoHeight}px\" !important",
+                "object-fit": "contain"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Altura Logo\" inline=\"\" name=\"logoHeight\" min=\"30\" max=\"120\" value=\"35\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Ancho Logo\" inline=\"\" name=\"logoWidth\" min=\"30\" max=\"120\" value=\"35\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked=\"\">\n        <header>Style</header>\n        <input type=\"checkbox\" title=\"Fijar Menú\" name=\"sticky\" checked=\"\">\n        <select title=\"Lado de la barra lateral\" name=\"sidebarSide\">\n            <option value=\"left\" selected=\"\">Izquierda</option>\n            <option value=\"right\">Derecha</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/favicon-80x80.png\" layout=\"responsive\" width=\"35\" height=\"35\" alt=\"#Navonia\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/favicon-80x80.png\" alt=\"#Navonia\" data-aspectratio=\"1\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\">#Navonia</p></div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-home mbr-iconfont mbr-iconfont-btn\"></span>Inicio</a>\n                    \n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"index.html#content1-o\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-user mbr-iconfont mbr-iconfont-btn\"></span>Nosotros</a>\n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"NFT.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-photo mbr-iconfont mbr-iconfont-btn\"></span>NFT</a>\n                </li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"preguntas-frecuentes.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-info mbr-iconfont mbr-iconfont-btn\"></span>Preguntas</a></li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://noise.cash/search?q=%23Navonia\" data-app-placeholder=\"Type Text\" target=\"_blank\">#Navonia</a> <a class=\"btn btn-sm btn-white\" href=\"https://noise.cash/search?q=%23Sarasa\" data-app-placeholder=\"Type Text\" target=\"_blank\">#Sarasa</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_cid": "sHfxequYvf",
+          "_anchor": "menu2-9",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "& when (@masonryStyle)": {
+              "@media (min-width: 992px)": {
+                ".mbr-row": {
+                  "flex-direction": "column",
+                  "height": "(@masonryHeight * 1rem)",
+                  "align-content": "center",
+                  "justify-content": "flex-start",
+                  ".item": {
+                    "height": "auto",
+                    "flex": "none",
+                    "max-width": "100%",
+                    "& when (@imageWidth = 2)": {
+                      "width": "50.00%"
+                    },
+                    "& when (@imageWidth = 3)": {
+                      "width": "33.33%"
+                    },
+                    "& when (@imageWidth = 4)": {
+                      "width": "25.00%"
+                    }
+                  }
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& when not (@noPaddings)": {
+                ".container-fluid": {
+                  "padding-left": "(@spacing * 1rem)",
+                  "padding-right": "(@spacing * 1rem)"
+                },
+                ".item": {
+                  "padding": "(@spacing * 1rem)"
+                },
+                ".item-img": {
+                  "padding-bottom": "0"
+                }
+              },
+              "& when (@noPaddings)": {
+                ".mbr-row": {
+                  "margin": "0",
+                  "padding": "0"
+                },
+                ".container-fluid, .container": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".title": {
+              "& when (@spacing <= 2)": {
+                "padding-bottom": "((2 - @spacing) * 1rem)"
+              },
+              "& when (@spacing > 2)": {
+                "margin-bottom": "((2 - @spacing) * 1rem)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".item": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".item-wrapper": {
+              "width": "100%",
+              "height": "100%",
+              "position": "relative"
+            },
+            "& when (@showText)": {
+              "amp-img": {
+                ".item-sign": {
+                  "position": "absolute",
+                  "left": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "padding": "1rem 2rem",
+                  "z-index": "2",
+                  "transition": "0.2s ease-in",
+                  "background-color": "rgba(red(@bgColor), green(@bgColor), blue(@bgColor), @bgOpacity)",
+                  "color": "#ffffff"
+                }
+              },
+              "amp-img:hover": {
+                ".item-sign": {
+                  "background-color": "rgba(red(@bgColor), green(@bgColor), blue(@bgColor), 100)"
+                }
+              }
+            },
+            "& when (@squareStyle)": {
+              "amp-img, img": {
+                "object-fit": "cover",
+                "height": "300px",
+                "@media (min-width: 991px) and (max-width: 1199px)": {
+                  "height": "275px"
+                }
+              }
+            },
+            ".item-btn, .item-box-btn": {
+              "margin": "0"
+            },
+            ".item-box": {
+              "justify-content": "center",
+              "position": "relative",
+              "width": "100%",
+              "background": "#f7f7f7",
+              "overflow": "auto",
+              "@media (min-width: 992px)": {
+                "max-width": "1000px"
+              },
+              "@media (max-width: 991px)": {
+                "width": "90%",
+                "margin": "1rem"
+              }
+            },
+            ".item-box-img": {
+              "@media (min-width: 992px)": {
+                "padding": "2rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              },
+              "amp-img": {
+                "height": "auto"
+              }
+            },
+            ".item-box-wrapper": {
+              "background-color": "#f7f7f7",
+              "@media (min-width: 992px)": {
+                "padding": "2rem"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              }
+            },
+            "& when (@customStyles)": {
+              "& when (@boxShadow)": {
+                ".item-wrapper": {
+                  "box-shadow": "0px 0px (@shadowSize * 1px) 0px rgba(red(@shadowColor), green(@shadowColor), blue(@shadowColor), @shadowOpacity)"
+                }
+              },
+              "& when (@hoverOverlay)": {
+                "amp-img": {
+                  "&:after": {
+                    "content": "\"\"",
+                    "pointer-events": "none",
+                    "transition": "0.4s",
+                    "position": "absolute",
+                    "top": "0",
+                    "left": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "opacity": "0",
+                    "background-color": "rgba(red(@hoverColor), green(@hoverColor), blue(@hoverColor), @hoverOpacity)"
+                  },
+                  "&:hover": {
+                    "&:after": {
+                      "opacity": "1"
+                    }
+                  }
+                }
+              },
+              "& when (@hoverIcon)": {
+                ".icon-wrap": {
+                  "position": "absolute",
+                  "left": "0",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "margin": "auto",
+                  "opacity": "0",
+                  "transition": "0.4s",
+                  "height": "(@iconSize * 1rem)",
+                  "width": "(@iconSize * 1rem)",
+                  "z-index": "2",
+                  "span": {
+                    "color": "@iconColor",
+                    "font-size": "(@iconSize * 1rem)"
+                  }
+                },
+                "amp-img:hover .icon-wrap": {
+                  "opacity": "1"
+                }
+              },
+              "& when (@useBorderRadius)": {
+                ".item-wrapper": {
+                  "z-index": "12",
+                  "border-radius": "(@borderRadius * 1px)",
+                  "overflow": "hidden"
+                }
+              }
+            },
+            "& when not (@customStyles)": {
+              ".icon-wrap": {
+                "display": "none"
+              }
+            },
+            ".item": {
+              "cursor": "pointer"
+            },
+            "& when (@noPaddings)": {
+              ".item": {
+                "margin": "0",
+                "padding": "0"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#dedede"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "gallery2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"amp-lightbox-gallery\" group=\"Shop\" plugins=\"amp-main, amp-lightbox-gallery\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<header>Size</header>\n\t\t<input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n\t\t<input type=\"checkbox\" name=\"fullWidth\" title=\"Ancho Completo\">\n\t\t<input type=\"checkbox\" name=\"masonryStyle\" title=\"Masonry Style\" condition=\"!squareStyle\">\n\t\t<input type=\"checkbox\" name=\"squareStyle\" title=\"Square Style\" condition=\"!masonryStyle\" checked>\n\t\t<input type=\"range\" min=\"50\" max=\"1000\" step=\"10\" value=\"50\" name=\"masonryHeight\" title=\"Height\" condition=\"masonryStyle\">\n\t\t<header>Show Hide</header>\n\t\t<input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n\t\t<input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\" checked>\n\t\t<header>Image</header>\n\t\t<input type=\"range\" name=\"imageWidth\" title=\"Ancho\" min=\"2\" max=\"4\" step=\"1\" value=\"4\">\n\t\t<input type=\"checkbox\" name=\"showText\" title=\"Text\">\n\t\t<input type=\"color\" name=\"bgColor\" title=\"BG Color\" value=\"#005af0\" condition=\"showText\">\n\t\t<input type=\"range\" name=\"bgOpacity\" title=\"Opacity\" value=\"0.5\" min=\"0\" max=\"1\" step=\"0.1\" condition=\"showText\">\n\t\t<header condition=\"customStyle\">Custom Styles</header>\n\t\t<input type=\"checkbox\" name=\"noPaddings\" title=\"Without Padding\">\n\t\t<input type=\"checkbox\" name=\"customStyles\" title=\"Custom Style\" checked>\n\n\t\t<header condition=\"customStyles\">Paddings</header>\n\t\t<input type=\"range\" title=\"Spacing\" name=\"spacing\" min=\"0\" max=\"5\" step=\"0.5\" value=\"2\" condition=\"customStyles && !noPaddings\">\n\n\t\t<header condition=\"customStyles\">Overlay</header>\n\t\t<input type=\"checkbox\" name=\"hoverOverlay\" title=\"Enable\" condition=\"customStyles\" checked>\n\t\t<input type=\"color\" name=\"hoverColor\" value=\"#000000\" title=\"Color\" condition=\"customStyles && hoverOverlay\">\n\t\t<input type=\"range\" name=\"hoverOpacity\" value=\"0.5\" min=\"0\" max=\"1\" step=\"0.1\" title=\"Opacity\" condition=\"customStyles && hoverOverlay\">\n\t\t<input type=\"checkbox\" name=\"hoverIcon\" title=\"Show Icon\" condition=\"customStyles\" checked>\n\t\t<input type=\"color\" name=\"iconColor\" value=\"#ffffff\" title=\"Icon Color\" condition=\"customStyles && hoverIcon\">\n\t\t<input type=\"range\" name=\"iconSize\" title=\"Icon Size\" min=\"1\" max=\"3\" step=\"0.5\" value=\"1.5\" condition=\"customStyles && hoverIcon\">\n\n\t\t<header condition=\"customStyles\">Box Shadow</header>\n\t\t<input type=\"checkbox\" name=\"boxShadow\" title=\"Shadow\" condition=\"customStyles\" checked>\n\t\t<input type=\"range\" name=\"shadowSize\" title=\"Size\" min=\"0\" max=\"100\" step=\"1\" value=\"15\" condition=\"customStyles && boxShadow\">\n\t\t<input type=\"range\" name=\"shadowOpacity\" title=\"Opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"customStyles && boxShadow\">\n\t\t<input type=\"color\" name=\"shadowColor\" title=\"Color\" condition=\"customStyles && boxShadow\" value=\"#ffffff\">\n\n\t\t<header condition=\"customStyles\">Border Radius</header>\n\t\t<input type=\"checkbox\" name=\"useBorderRadius\" title=\"Round Border\" condition=\"customStyles\" checked>\n\t\t<input type=\"range\" name=\"borderRadius\" title=\"Size\" min=\"0\" max=\"50\" step=\"1\" value=\"19\" condition=\"customStyles && useBorderRadius\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" required>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/maryfel43.webp\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n\t\t</fieldset>\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type == 'image'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type == 'image'\">\n\t</mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\t<div mbr-class=\"{'container': !fullWidth,\n\t\t\t\t\t 'container-fluid': fullWidth}\">\n\t\t<div class=\"title mbr-pb-4 align-center\" mbr-if=\"showTitle || showSubtitle\">\n\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style mbr-bold mbr-pb-2\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">#Navonia NFT<br></h3>\n\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"><i>En proceso para ser agregadas a la blockchain de BCH.</i></h4>\n\t\t</div>\n\t\t<div class=\"mbr-row\" mbr-class=\"{'mbr-column mbr-jc-s': masonryStyle}\">\n            <div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12 active\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft01-320x509.jpg\" layout=\"responsive\" width=\"188.60510805500982\" height=\"300\" alt=\"Navonia NFT NavoneJuan \" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/d542809a2f2bc5485fa03df752f394212e5cbe9f249826719e61c58256d8516f\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/d542809a2f2bc5485fa03df752f394212e5cbe9f249826719e61c58256d8516f\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft01-320x509.jpg\" alt=\"Navonia NFT NavoneJuan \" data-slide-to=\"0\" data-aspectratio=\"1.590625\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft08-320x509.jpg\" layout=\"responsive\" width=\"188.60510805500982\" height=\"300\" alt=\"Navonia NFT MwwM\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/1a740068566a475d606748784ffa757d30485766a647817d50b92be4880a505b\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/1a740068566a475d606748784ffa757d30485766a647817d50b92be4880a505b\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft08-320x509.jpg\" alt=\"Navonia NFT MwwM\" data-slide-to=\"1\" data-aspectratio=\"1.590625\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft02-320x509.jpg\" layout=\"responsive\" width=\"188.60510805500982\" height=\"300\" alt=\"Navonia NFT Cannawix\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/ee45a7408c56256ee36dbd437afce09ab516601a2fb09e799f2bcb1b4963137c\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/ee45a7408c56256ee36dbd437afce09ab516601a2fb09e799f2bcb1b4963137c\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft02-320x509.jpg\" alt=\"Navonia NFT Cannawix\" data-slide-to=\"2\" data-aspectratio=\"1.590625\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft03-320x509.jpg\" layout=\"responsive\" width=\"188.60510805500982\" height=\"300\" alt=\"Navonia NFT Fuga\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/74759e4ecaf77fb0b81b8e48da99209537e9920fd25a53f79f023a14ca80638f\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/74759e4ecaf77fb0b81b8e48da99209537e9920fd25a53f79f023a14ca80638f\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft03-320x509.jpg\" alt=\"Navonia NFT Fuga\" data-slide-to=\"3\" data-aspectratio=\"1.590625\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft04-320x509.jpg\" layout=\"responsive\" width=\"188.60510805500982\" height=\"300\" alt=\"Navonia NFT Nicothp\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/bd06bc3a1e4c23f0c0df09ae09aa76e0094d896c0b1a1cf5cbf18ba7024cce81\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/bd06bc3a1e4c23f0c0df09ae09aa76e0094d896c0b1a1cf5cbf18ba7024cce81\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft04-320x509.jpg\" alt=\"Navonia NFT Nicothp\" data-slide-to=\"4\" data-aspectratio=\"1.590625\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft05-320x509.jpg\" layout=\"responsive\" width=\"188.60510805500982\" height=\"300\" alt=\"Navonia NFT Tokoloshe85\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/e3544d9168e6e7fff78215ca8ef8da7850478e15121aa60d65442f6e6eb8e4f8\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/e3544d9168e6e7fff78215ca8ef8da7850478e15121aa60d65442f6e6eb8e4f8\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft05-320x509.jpg\" alt=\"Navonia NFT Tokoloshe85\" data-slide-to=\"5\" data-aspectratio=\"1.590625\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft06-320x509.jpg\" layout=\"responsive\" width=\"188.60510805500982\" height=\"300\" alt=\"Navonia NFT Kike9781\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/56b03067d5904c5064ac011a3dd7946acf907f891c795947b0af8213b3782d38\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/56b03067d5904c5064ac011a3dd7946acf907f891c795947b0af8213b3782d38\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft06-320x509.jpg\" alt=\"Navonia NFT Kike9781\" data-slide-to=\"5\" data-aspectratio=\"1.590625\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft07-320x509.jpg\" layout=\"responsive\" width=\"188.60510805500982\" height=\"300\" alt=\"Navonia NFT Circulodebaba\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/cadfe4bec617d98ca9fba52650b73fe3b8e978f36601b1556aa33aea0b622012\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/cadfe4bec617d98ca9fba52650b73fe3b8e978f36601b1556aa33aea0b622012\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft07-320x509.jpg\" alt=\"Navonia NFT Circulodebaba\" data-slide-to=\"5\" data-aspectratio=\"1.590625\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/mapa-de-navonia-900x900.jpg\" layout=\"responsive\" width=\"300\" height=\"300\" alt=\"Navonia NFT Mapa Uno\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/19a3d735da55f7889f8ff2ae1313593c7a7fd7616f617a16307d76f237fdaa5b\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/19a3d735da55f7889f8ff2ae1313593c7a7fd7616f617a16307d76f237fdaa5b\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/mapa-de-navonia-900x900.jpg\" alt=\"Navonia NFT Mapa Uno\" data-slide-to=\"5\" data-aspectratio=\"1\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft09-320x509.jpg\" layout=\"responsive\" width=\"188.60510805500982\" height=\"300\" alt=\"Navonia NFT Arepa de Oro\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/4595b308a4dc581c26267512534dbdfc304220af78a8f28f285311ec99823808\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/4595b308a4dc581c26267512534dbdfc304220af78a8f28f285311ec99823808\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft09-320x509.jpg\" alt=\"Navonia NFT Arepa de Oro\" data-slide-to=\"5\" data-aspectratio=\"1.590625\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft10-392x624.jpg\" layout=\"responsive\" width=\"188.46153846153845\" height=\"300\" alt=\"Navonia NFT Florero de Oro\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/3c50150f70e31927d501846ab33113208b2ec83b54e8f3e82412d3c1d0b97e38\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<a href=\"https://simpleledger.info/#token/3c50150f70e31927d501846ab33113208b2ec83b54e8f3e82412d3c1d0b97e38\" target=\"_blank\"><img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft10-392x624.jpg\" alt=\"Navonia NFT Florero de Oro\" data-slide-to=\"5\" data-aspectratio=\"1.5918367346938775\" lightbox=\"true\"></a>\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item gallery-image mbr-col-md-6 mbr-col-sm-12\" mbr-class=\"{'mbr-col-lg-4': imageWidth == 3,\n\t\t\t\t\t\t\t 'mbr-col-lg-3': imageWidth == 4,\n\t\t\t\t\t\t\t 'mbr-col-lg-6': imageWidth == 2}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<amp-img src=\"@PROJECT_PATH@/assets/images/navonianft11-578x840.jpg\" layout=\"responsive\" width=\"206.42857142857142\" height=\"300\" alt=\"Navonia NFT Navonio - Flor Nacional\" class=\"placeholder-loader lb-image\">\n                        <div placeholder class=\"placeholder\"></div>\n                        <div class=\"icon-wrap iconfont-wrapper\" mbr-if=\"hoverIcon\">\n                            <a href=\"https://simpleledger.info/#token/3c50150f70e31927d501846ab33113208b2ec83b54e8f3e82412d3c1d0b97e38\" target=\"_blank\"><span mbr-icon class=\"amp-iconfont mobi-mbri-search mobi-mbri\"></span></a>\n                        </div>\n\t\t\t\t\t\t<p class=\"item-sign mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".item-sign\">Type caption here</p>\n\t\t\t\t\t\t<img class=\"mbr-temp nodisplay\" src=\"@PROJECT_PATH@/assets/images/navonianft11-578x840.jpg\" alt=\"Navonia NFT Navonio - Flor Nacional\" data-slide-to=\"5\" data-aspectratio=\"1.453287197231834\" lightbox=\"true\">\n\t\t\t\t\t</amp-img>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_anchor": "gallery2-b",
+          "_isUserblock": true,
+          "_cid": "sHx3hqIuQw",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Style</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" title=\"Ancho\" name=\"textWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/tokoloshe85.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-md-12 mbr-col-lg-{{textWidth}}\">\n                <p class=\"mbr-text align-center mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    propaganda</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-10",
+          "_isUserblock": true,
+          "_cid": "sIth5CShcU",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#dedede"
+            }
+          },
+          "_name": "content1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"mbr-section 01\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/tokoloshe85.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n     <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\"><i>\n                    NFT's de nuestros ciudadanos</i></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\" class=\"mbr-section-subtitle align-center mbr-regular mbr-pt-2 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                    Diferentes proyectos y NFTs de los integrantes de #Navonia</h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Learn More</a>\n                    <a class=\"btn btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Live Demo</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sHCj9l5anI",
+          "_anchor": "content1-h",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              ".card-wrapper": {
+                "border-radius": "10px",
+                "background": "@cardBg",
+                "box-shadow": "inset 0 0 0 1px #ebebf0, 0 15px 30px 0 rgba(0, 0, 0, 0.15)"
+              }
+            },
+            ".mbr-section-subtitle when (@showSpecialty)": {
+              "letter-spacing": "3px"
+            },
+            ".card-img": {
+              "padding": "0",
+              "width": "100%",
+              "@media (min-width: 768px)": {
+                "& when (@reverse)": {
+                  "padding-left": "1rem"
+                },
+                "& when not (@reverse)": {
+                  "padding-right": "1rem"
+                }
+              }
+            },
+            "img": {
+              "border-radius": "4px"
+            },
+            "@media (max-width: 767px)": {
+              ".card-box": {
+                "padding-top": "2rem"
+              }
+            },
+            "& when (@showSocial)": {
+              ".iconfont-wrapper, .amp-iconfont": {
+                "width": "~\"@{iconsSize}rem\"",
+                "height": "~\"@{iconsSize}rem\"",
+                "font-size": "~\"@{iconsSize}rem\"",
+                "color": "@iconsColor",
+                "margin": "10px 10px 0 0",
+                "transition": "all .2s",
+                "&:hover": {
+                  "color": "lighten(@iconsColor, 30)"
+                },
+                "& when ((@iconsSize * 16) > 30)": {
+                  "@media (max-width: 767px)": {
+                    "font-size": "30px",
+                    "height": "30px",
+                    "width": "30px"
+                  }
+                }
+              }
+            }
+          },
+          "_name": "team2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"team2 mbr-section\" group=\"Testimonials & Teams\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Ancho Completo\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverse\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Specialty\" name=\"showSpecialty\" checked>\n        <input type=\"checkbox\" title=\"Name\" name=\"showName\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <select title=\"Tarjetas\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"color\" title=\"Card BG\" name=\"cardBg\" value=\"#000000\">\n        <header>Social</header>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" inline title=\"Count\" name=\"iconsCount\" min=\"1\" max=\"5\" step=\"1\" value=\"1\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Color\" name=\"iconsColor\" value=\"#f3f3f3\" condition=\"showSocial\">\n        <input type=\"range\" inline title=\"Size\" name=\"iconsSize\" min=\"0.8\" max=\"4\" step=\"0.1\" value=\"2\" condition=\"showSocial\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/nicothp.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <div class mbr-class=\"{'container' : !fullWidth, 'container-fluid' : fullWidth}\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6\" mbr-class=\"{'last-child': cardsAmount == 1, 'lg-pb': cardsAmount > 2, 'md-pb':cardsAmount > 1}\">\n                <div class=\"card-wrapper mbr-p-5 mbr-flex\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n                    <div class=\"card-img mbr-col-md-6 mbr-m-auto\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/favicon00-96x96.png\" layout=\"responsive\" width=\"205\" height=\"205\" alt=\"Sarasa NFT\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <a href=\"https://cannawix.tk/\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/favicon00-96x96.png\" alt=\"Sarasa NFT\" title data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-col-sm-12 mbr-col-md-6 mbr-m-auto mbr-p-2\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-white mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">Sarasa NFT</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-white mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title, .social\" mbr-class=\"{'mbr-pb-2': showText}\">Proyecto de Cannawix</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center mbr-white mbr-pt-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            <a href=\"https://cannawix.tk/\" class=\"text-primary\" target=\"_blank\"><b><i>https://cannawix.tk</i></b></a></p>\n                        <div class=\"icons-list social align-center\" mbr-list mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://cannawix.tk/\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon class=\"amp-iconfont mobi-mbri-globe-2 mobi-mbri\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n            <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6\" mbr-class=\"{'last-child': cardsAmount == 2, 'md-pb lg-pb': cardsAmount > 2}\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper mbr-p-5 mbr-flex\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n                    <div class=\"card-img mbr-col-md-6 mbr-m-auto\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/caripelas500-410x410.jpg\" layout=\"responsive\" height=\"205\" width=\"205\" alt=\"Caripelas NFT\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <a href=\"https://www.caripelas.tk/\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/caripelas500-410x410.jpg\" alt=\"Caripelas NFT\" title data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-col-sm-12 mbr-col-md-6 mbr-m-auto mbr-p-2\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-white mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">Caripelas</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-white mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title, .social\" mbr-class=\"{'mbr-pb-2': showText}\">Proyecto de NavoneJuan</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center mbr-white mbr-pt-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            <a href=\"https://www.caripelas.tk/\" class=\"text-primary\" target=\"_blank\"><b><i>https://caripelas.tk</i></b></a></p>\n                        <div class=\"icons-list social align-center\" mbr-list mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://www.caripelas.tk/\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon class=\"amp-iconfont mobi-mbri-globe-2 mobi-mbri\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n        \n            <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6\" mbr-class=\"{'last-child': cardsAmount == 3, 'md-pb':cardsAmount > 3}\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper mbr-p-5 mbr-flex\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n                    <div class=\"card-img mbr-col-md-6 mbr-m-auto\">\n                        <amp-img src=\"@PROJECT_PATH@/assets/images/d10s-410x410.png\" layout=\"responsive\" height=\"205\" width=\"205\" alt=\"Diego vs Diegos - D10S\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <a href=\"https://d10sdiego.tk\" target=\"_blank\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/d10s-410x410.png\" alt=\"Diego vs Diegos - D10S\" title data-aspectratio=\"1\"></a>\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-col-sm-12 mbr-col-md-6 mbr-m-auto mbr-p-2\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-white mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">Diego vs Diego</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-white mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title, .social\" mbr-class=\"{'mbr-pb-2': showText}\">Proyecto de NavoneJuan</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center mbr-white mbr-pt-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            <a href=\"https://d10sdiego.tk\" class=\"text-primary\" target=\"_blank\"><i><b>https://d10sdiego.tk</b></i></a>\n                        </p>\n                        <div class=\"icons-list social align-center\" mbr-list mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://d10sdiego.tk\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon class=\"amp-iconfont mobi-mbri-globe-2 mobi-mbri\"></span>\n                                </span>\n                            </a>\n                            \n                            \n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6\" mbr-class=\"{'last-child': cardsAmount == 4}\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper mbr-p-5 mbr-flex\" mbr-class=\"{'mbr-row-reverse': reverse}\">\n                    <div class=\"card-img mbr-col-md-6 mbr-m-auto\">\n                        <amp-img src=\"@THEME_PATH@/components/_images/face2.jpg\" layout=\"responsive\" height=\"9\" width=\"16\" alt=\"Mobirise\" class=\"mobirise-loader\">\n                            <div placeholder class=\"placeholder\"></div>\n                            <img class=\"mbr-temp\" src=\"@THEME_PATH@/components/_images/face2.jpg\" alt=\"Mobirise\">\n                        </amp-img>\n                    </div>\n                    <div class=\"card-box mbr-col-sm-12 mbr-col-md-6 mbr-m-auto mbr-p-2\">\n                        <h4 class=\"mbr-fonts-style mbr-section-subtitle align-center mbr-white mbr-semibold\" mbr-theme-style=\"display-4\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSpecialty\">WEB MARKETER</h4>\n                        <h3 class=\"mbr-section-title mbr-bold mbr-fonts-style align-center mbr-white mbr-pt-1\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-section-title, .social\" mbr-class=\"{'mbr-pb-2': showText}\">Anne Green</h3>\n                        <p class=\"mbr-text mbr-fonts-style align-center mbr-white mbr-pt-1\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .social\">\n                            Lorem ipsum dolor sit amet, consectetur.\n                        </p>\n                        <div class=\"icons-list social align-center\" mbr-list mbr-list-grow=\"iconsCount\" mbr-if=\"showSocial\" mbr-class=\"{'mbr-pt-3': showText || showName || showSpecialty}\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span class=\"iconfont-wrapper\">\n                                    <span mbr-icon class=\"amp-iconfont fa-facebook-f fa\"></span>\n                                </span>\n                            </a>\n                            \n                            </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sHCidCTB2f",
+          "_anchor": "team2-g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Style</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" title=\"Ancho\" name=\"textWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/cannawix.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-md-12 mbr-col-lg-{{textWidth}}\">\n                <p class=\"mbr-text align-center mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    propaganda</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-11",
+          "_isUserblock": true,
+          "_cid": "sIthc1cEeh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/circulodebaba.webp\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                <i><b><a href=\"https://noise.cash/search?q=%23Navonia\" class=\"text-primary\" target=\"_blank\">#Navonia</a> </b></i>- <b>DWeb</b> - ❤ &amp; ☕<br><a href=\"politica-de-privacidad.html\" class=\"text-primary\"><i>Política de Privacidad</i></a><br></p>\n        </div>\n    </div>\n</section>",
+          "_cid": "sHfyz4wdDy",
+          "_anchor": "footer1-a",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    },
+    "politica-de-privacidad.html": {
+      "settings": {
+        "title": "Política de Privacidad",
+        "order": 4,
+        "meta_image": "@PROJECT_PATH@/assets/images/favicon-80x80.png",
+        "meta_descr": "Política de Privacidad de #Navonia"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "min-height": "56px",
+            "background-color": "@menuBgColor",
+            ".brand-name": {
+              "margin-right": "2rem",
+              "margin-top": "6px",
+              "a": {
+                "font-weight": "700"
+              },
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".menu-container": {
+              "padding": "0 30px"
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background": "@hamburgerColor"
+            },
+            ".nav-dropdown .dropdown-menu .dropdown-item": {
+              "font-weight": "700",
+              "width": "100%",
+              "text-align": "inherit"
+            },
+            "a.nav-link": {
+              "font-weight": "700"
+            },
+            ".navbar": {
+              "min-height": "56px",
+              "background": "@menuBgColor",
+              ".navbar-collapse": {
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "padding": "0",
+              "margin": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".navbar-expand-lg .navbar-nav .nav-link": {
+                "padding": "13px 0"
+              },
+              ".navbar-nav .nav-link": {
+                "margin": "0"
+              },
+              ".navbar-nav .nav-item": {
+                "margin": "0 18px -5px !important"
+              },
+              ".navbar-buttons": {
+                "margin-left": "2rem"
+              }
+            },
+            ".navbar-buttons .btn": {
+              "box-shadow": "none !important",
+              "transform": "none !important"
+            },
+            ".builder-sidebar, .collapse, .navbar.navbar-expand-lg .dropdown .dropdown-menu": {
+              "background-color": "@menuBgColor"
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-nav a": {
+                "padding": "0 !important",
+                "margin": "0 0 1rem !important"
+              },
+              ".dropdown-menu": {
+                "padding": "0"
+              }
+            },
+            ".close-sidebar:focus": {
+              "outline": "2px auto @primaryColor"
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "img": {
+                "height": "~\"@{logoHeight}px\" !important",
+                "object-fit": "contain"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Altura Logo\" inline=\"\" name=\"logoHeight\" min=\"30\" max=\"120\" value=\"35\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Ancho Logo\" inline=\"\" name=\"logoWidth\" min=\"30\" max=\"120\" value=\"35\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked=\"\">\n        <header>Style</header>\n        <input type=\"checkbox\" title=\"Fijar Menú\" name=\"sticky\" checked=\"\">\n        <select title=\"Lado de la barra lateral\" name=\"sidebarSide\">\n            <option value=\"left\" selected=\"\">Izquierda</option>\n            <option value=\"right\">Derecha</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/favicon-80x80.png\" layout=\"responsive\" width=\"35\" height=\"35\" alt=\"#Navonia\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/favicon-80x80.png\" alt=\"#Navonia\" data-aspectratio=\"1\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\">#Navonia</p></div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-home mbr-iconfont mbr-iconfont-btn\"></span>Inicio</a>\n                    \n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"index.html#content1-o\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-user mbr-iconfont mbr-iconfont-btn\"></span>Nosotros</a>\n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"NFT.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-photo mbr-iconfont mbr-iconfont-btn\"></span>NFT</a>\n                </li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"preguntas-frecuentes.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-info mbr-iconfont mbr-iconfont-btn\"></span>Preguntas</a></li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://noise.cash/search?q=%23Navonia\" data-app-placeholder=\"Type Text\" target=\"_blank\">#Navonia</a> <a class=\"btn btn-sm btn-white\" href=\"https://noise.cash/search?q=%23Sarasa\" data-app-placeholder=\"Type Text\" target=\"_blank\">#Sarasa</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_cid": "sHfxequYvf",
+          "_anchor": "menu2-d",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn": {
+              "color": "#dedede"
+            },
+            ".mbr-section-subtitle, .mbr-section-btn DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content19",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"mbr-section 03\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mwwm-1.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-jc-c\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center mbr-white mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\">Política de Privacidad</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle, .mbr-section-btn\" class=\"mbr-section-subtitle align-center mbr-regular mbr-fonts-style mbr-white mbr-pt-2\" mbr-theme-style=\"display-5\">En nuestra web, por cuestiones administrativas, NO están activados los comentarios. Cuando los visitantes dejan comentarios en las redes sociales de <b><i>#Navonia</i></b>, los datos recopilados, están sujetas a las Políticas de Privacidad de cada Red Social. Nuestra Red Social principal es <a href=\"https://noise.cash/search?q=%23Navonia\" class=\"text-primary\" target=\"_blank\">https://noise.cash</a>.<br><br>Esta página web utiliza los siguientes tipos de cookies:\n<div>\n</div><div>Cookies de análisis (<a href=\"https://policies.google.com/privacy?hl=es\" class=\"text-primary\" target=\"_blank\"><b><i>Google Analytics</i></b></a>): Son aquellas que bien tratadas por nosotros o por terceros, nos permiten cuantificar el número de usuarios y así realizar la medición y análisis estadístico de la utilización que hacen los usuarios del servicio ofertado. Para ello se analiza su navegación en nuestra página web con el fin de mejorar la oferta de productos o servicios que le ofrecemos.</div><br><div><b>CONTENIDO EMBEBIDO DESDE OTROS SITIOS WEB</b></div><div>Los artículos en este sitio pueden incluir contenido incrustado (por ejemplo, videos, imágenes, etc.). El contenido incrustado de otros sitios web se comporta de la misma manera que si el visitante hubiera visitado el otro sitio web.<br></div><div><br></div><div>Estos sitios web pueden recopilar tus datos, utilizar cookies, incrustar un sistema de seguimiento de terceros y supervisar su interacción con ese contenido incrustado, incluyendo el rastreo de tu interacción con el contenido incrustado si tenés una cuenta y estás conectado a ese sitio web. Por ende ya no es responsabilidad de #Navonia.</div><div>El propósito de la ley de cookies argentina es que todos aquellos que recopilan información para usarlos con fines de marketing y publicidad deban contar con el consentimiento de los usuarios para usar sus datos.</div><div>¿Qué organismo regula la política de privacidad en Argentina?</div><div><br></div><div>En Argentina, la ley de cookies es regulada por la Dirección Nacional de Protección de Datos Personales (DNPDP). Este es un organismo que funciona desde que la ley fue sancionada en el 2000, y tiene a su cargo Registro Nacional de las Bases de Datos, un instrumento que controla las bases de datos de todo el país, reportando al Ministerio de Justicia, Seguridad y Derechos Humanos.</div></h3>\n                <div class=\"mbr-section-btn align-center mbr-pt-3\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://www.argentina.gob.ar/aaip/datospersonales\" data-app-placeholder=\"Type Text\" target=\"_blank\">Dirección Nacional de Protección de Datos Personales</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sHC41sN8DE",
+          "_anchor": "content19-f",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Style</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" title=\"Ancho\" name=\"textWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/yo-pelado-low-poly-253x344.jpeg\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-md-12 mbr-col-lg-{{textWidth}}\">\n                <p class=\"mbr-text align-center mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    propaganda</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-14",
+          "_isUserblock": true,
+          "_cid": "sIthvagqqd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                <i><b><a href=\"https://noise.cash/search?q=%23Navonia\" class=\"text-primary\" target=\"_blank\">#Navonia</a> </b></i>- <b>DWeb</b> - ❤ &amp; ☕<br><a href=\"politica-de-privacidad.html\" class=\"text-primary\"><i>Política de Privacidad</i></a><br></p>\n        </div>\n    </div>\n</section>",
+          "_cid": "sHfyz4wdDy",
+          "_anchor": "footer1-e",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    },
+    "preguntas-frecuentes.html": {
+      "settings": {
+        "title": "Preguntas Frecuentes",
+        "order": 3,
+        "meta_image": "@PROJECT_PATH@/assets/images/favicon-80x80.png",
+        "meta_descr": "Preguntas sobre #Navonia"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "min-height": "56px",
+            "background-color": "@menuBgColor",
+            ".brand-name": {
+              "margin-right": "2rem",
+              "margin-top": "6px",
+              "a": {
+                "font-weight": "700"
+              },
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".menu-container": {
+              "padding": "0 30px"
+            },
+            ".hamburger span, .close-sidebar span": {
+              "background": "@hamburgerColor"
+            },
+            ".nav-dropdown .dropdown-menu .dropdown-item": {
+              "font-weight": "700",
+              "width": "100%",
+              "text-align": "inherit"
+            },
+            "a.nav-link": {
+              "font-weight": "700"
+            },
+            ".navbar": {
+              "min-height": "56px",
+              "background": "@menuBgColor",
+              ".navbar-collapse": {
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".navbar-collapse": {
+                  "& when (@sidebarSide = 'left')": {
+                    "right": "auto",
+                    "left": "0"
+                  }
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "padding": "0",
+              "margin": "0"
+            },
+            "@media (min-width: 992px)": {
+              ".navbar-expand-lg .navbar-nav .nav-link": {
+                "padding": "13px 0"
+              },
+              ".navbar-nav .nav-link": {
+                "margin": "0"
+              },
+              ".navbar-nav .nav-item": {
+                "margin": "0 18px -5px !important"
+              },
+              ".navbar-buttons": {
+                "margin-left": "2rem"
+              }
+            },
+            ".navbar-buttons .btn": {
+              "box-shadow": "none !important",
+              "transform": "none !important"
+            },
+            ".builder-sidebar, .collapse, .navbar.navbar-expand-lg .dropdown .dropdown-menu": {
+              "background-color": "@menuBgColor"
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-nav a": {
+                "padding": "0 !important",
+                "margin": "0 0 1rem !important"
+              },
+              ".dropdown-menu": {
+                "padding": "0"
+              }
+            },
+            ".close-sidebar:focus": {
+              "outline": "2px auto @primaryColor"
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "img": {
+                "height": "~\"@{logoHeight}px\" !important",
+                "object-fit": "contain"
+              }
+            }
+          },
+          "_name": "menu2",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"menu horizontal-menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Altura Logo\" inline=\"\" name=\"logoHeight\" min=\"30\" max=\"120\" value=\"35\" step=\"1\" condition=\"showLogo\">\n        <input type=\"range\" title=\"Ancho Logo\" inline=\"\" name=\"logoWidth\" min=\"30\" max=\"120\" value=\"35\" step=\"1\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked=\"\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked=\"\">\n        <header>Style</header>\n        <input type=\"checkbox\" title=\"Fijar Menú\" name=\"sticky\" checked=\"\">\n        <select title=\"Lado de la barra lateral\" name=\"sidebarSide\">\n            <option value=\"left\" selected=\"\">Izquierda</option>\n            <option value=\"right\">Derecha</option>\n        </select>\n        <input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#767676\">\n        <input type=\"color\" title=\"Background\" name=\"menuBgColor\" value=\"#000000\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown navbar-expand-lg\" mbr-class=\"{'navbar-fixed-top':sticky}\">\n       <div class=\"menu-container container-fluid\" mbr-class=\"{'mbr-jc-e': !showBrand &amp;&amp; !showLogo}\"> \n      <div class=\"navbar-brand\" mbr-if=\"showLogo || showBrand\">\n          <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/favicon-80x80.png\" layout=\"responsive\" width=\"35\" height=\"35\" alt=\"#Navonia\" class=\"mobirise-loader\">\n                  <div placeholder=\"\" class=\"placeholder\"></div>\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/favicon-80x80.png\" alt=\"#Navonia\" data-aspectratio=\"1\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-4\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style mbr-bold\" data-app-selector=\".brand-name\">#Navonia</p></div>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <ul mbr-menu=\"\" class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'navbar-nav-top-padding': isPublish &amp;&amp; !showBrand &amp;&amp; !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-home mbr-iconfont mbr-iconfont-btn\"></span>Inicio</a>\n                    \n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"index.html#content1-o\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-user mbr-iconfont mbr-iconfont-btn\"></span>Nosotros</a>\n                </li><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white text-primary\" href=\"NFT.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-photo mbr-iconfont mbr-iconfont-btn\"></span>NFT</a>\n                </li>\n                <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"preguntas-frecuentes.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-info mbr-iconfont mbr-iconfont-btn\"></span>Preguntas</a></li></ul>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\"><a class=\"btn btn-sm btn-white-outline\" href=\"https://noise.cash/search?q=%23Navonia\" data-app-placeholder=\"Type Text\" target=\"_blank\">#Navonia</a> <a class=\"btn btn-sm btn-white\" href=\"https://noise.cash/search?q=%23Sarasa\" data-app-placeholder=\"Type Text\" target=\"_blank\">#Sarasa</a></div>\n      </div>\n      <button class=\"navbar-toggler hide\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems||showButtons\">\n          <div class=\"hamburger\">\n              <span></span>\n              <span></span>\n              <span></span>\n              <span></span>\n          </div>\n      </button>\n      <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\" mbr-if=\"showItems||showButtons\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n        </div>\n    </nav>\n\n  <!-- AMP plug -->\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n        </div>\n    </amp-sidebar>\n\n</section>",
+          "_cid": "sHfxequYvf",
+          "_anchor": "menu2-i",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".accordion section": {
+              "background-color": "transparent",
+              "overflow": "visible !important",
+              "margin-bottom": "50px"
+            },
+            ".header_title": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "line-height": "1.1"
+            },
+            ".accordion section[expanded]": {
+              "background-color": "@tabsColor2",
+              "border-radius": "8px",
+              "box-shadow": "0 15px 30px 0 rgba(0, 0, 0, 0.15)",
+              ".iconfont-wrapper": {
+                "transform": "rotate(180deg)"
+              }
+            },
+            ".section-title": {
+              "border-radius": "8px",
+              "padding": "30px",
+              "transition": "all 0.3s cubic-bezier(0.25, 0.1, 0.25, 1)",
+              "border": "none",
+              "& when (@border)": {
+                "&[aria-expanded=\"true\"]": {
+                  "border-color": "transparent"
+                },
+                "border": "2px solid @tabsBorder"
+              },
+              "& when not (@headerGradient)": {
+                "background-color": "@tabsColor1"
+              },
+              "& when (@headerGradient)": {
+                "background": "linear-gradient(225deg, @tabsColor1 0, @gradient 75%)"
+              },
+              "&:hover": {
+                "border-color": "transparent",
+                "transform": "translateY(-0.125em)",
+                "box-shadow": "0 15px 30px 0 rgba(0, 0, 0, 0.15)"
+              }
+            },
+            "p": {
+              "padding": "1.1rem 30px 30px"
+            },
+            ".mbr-iconfont": {
+              "vertical-align": "middle",
+              "font-size": "22px",
+              "width": "22px",
+              "color": "contrast(@tabsColor1)"
+            },
+            ".mbr-section-title": {
+              "color": "#dedede"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#dedede"
+            },
+            ".tab-title": {
+              "color": "#dedede"
+            },
+            "P": {
+              "color": "#ffffff",
+              "text-align": "left"
+            }
+          },
+          "_name": "accordion1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"accordion\" group=\"Toggles & Tabs\" plugins=\"amp-main,amp-accordion\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" value=\"5\" step=\"1\">\n        <select name=\"alignContent\" title=\"Align\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" inline title=\"Ancho\" name=\"widthContent\" min=\"4\" max=\"10\" value=\"8\" step=\"1\">\n        <header>Show/hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Tabs</header>\n        <select title=\"Tabs\" name=\"tabsAmount\">\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Gradient\" name=\"headerGradient\" checked>\n        <input type=\"color\" title=\"Header\" name=\"tabsColor1\" value=\"#000000\">\n        <input type=\"color\" title=\"Header 2\" name=\"gradient\" value=\"#030021\" condition=\"headerGradient\">\n        <input type=\"color\" title=\"Content\" name=\"tabsColor2\" value=\"#20202a\">\n        <input type=\"checkbox\" title=\"Border\" name=\"border\" checked>\n        <input type=\"color\" title=\"Border Color\" name=\"tabsBorder\" value=\"#3aa5e4\" condition=\"border\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/kike9781.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container\">\n      <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n          <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-12\" mbr-if=\"showTitle || showSubtitle\">\n              <h3 class=\"mbr-fonts-style mbr-section-title mbr-bold align-center\" mbr-if=\"showTitle\" mbr-class=\"{'mbr-pb-2': showSubtitle}\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">Preguntas Frecuentes</h3>\n              <h4 class=\"mbr-fonts-style mbr-section-subtitle mbr-regular align-center\" mbr-if=\"showSubtitle\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\">Preguntas relacionadas a #Navonia</h4>\n          </div>\n            \n        <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-{{widthContent}}\">\n        <amp-accordion class=\"accordion\" expand-single-section mbr-class=\"{'mbr-pt-4': showTitle || showSubtitle}\">\n          <section>\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">¿Qué es #Navonia?</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">- #Navonia es una idea, un movimiento, una tendencia, un hashtag en <a href=\"https://noise.cash/search?q=%23Navonia\" class=\"text-primary\" target=\"_blank\">noise.chash</a>.<br>- #Navonia en un delirio nacido por varios usuarios en Noise, un lugar ficticio, donde todo puede pasar.<br>- A #Navonia le damos firma los usuarios, por medio del arte, un dibujo, un cuento, o por el mismo delirio que le dio vida.</p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 1\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">¿Por qué hicieron una página web de #Navonia?</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                    La respuesta es simple... ¿Por qué no?<br>La web le da identidad a #Navonia, ayuda a generar contenido sin hacer spam en noise.<br>Este espacio web, nos permite exponer ideas, hacerlas fuertes en su espacio propio.<br></p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 2\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">¿Qué esperan lograr con #Navonia?</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">Absolutamente NADA... o talvez todo lo que nos propongamos. Esto recién comienza.<br>#Navonia, así como puede ser un hashtag, también es una forma de pensar, una manera de expresarse, individual y grupal.&nbsp;Cada persona que integra #Navonia tiene su propio prisma para ver la vida, y a la vez cada vision, se integra con la de los demás inadaptados de este delirio.<br></p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 3\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">¿Como puedo comunicarme con los integrantes de #Navonia?</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                    Todos los que integran esta web, son usuarios de <a href=\"https://noise.cash/\" class=\"text-primary\" target=\"_blank\"><i><b>Noise.Cash</b></i></a>, pueden ingresar a nuestros perfiles desde la sección <a href=\"nosotros.html\" class=\"text-primary\"><i><b>Nosotros</b></i></a>.<br>Por el momento es el único modo de contacto con los miembros de #Navonia.</p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 4\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">What is Mobirise?</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repudiandae possimus fugit nesciunt nostrum provident reprehenderit quasi molestiae, veritatis sapiente, pariatur, rem dignissimos esse deleniti eligendi laborum dolor, doloribus repellat?Nesciunt minima corporis fuga, saepe atque obcaecati, asperiores vero, recusandae, odit totam nobis cumque accusamus impedit nam odio minus iure labore! Laborum similique fuga, libero vel minima nulla necessitatibus eaque.\n                  </p>\n                </div>\n            </section>\n              <section mbr-if=\"tabsAmount > 5\">\n                <header class=\"section-title\" role=\"button\" aria-controls=\"0\" aria-expanded=\"false\" tabindex=\"0\"> \n                    <div class=\"header_title\"> \n                        <h4 class=\"tab-title mbr-bold mbr-black mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".tab-title\">What is Mobirise?</h4> \n                        <div class=\"iconfont-wrapper\">\n                            <span class=\"mbr-iconfont mbr-bold mobi-mbri-arrow-down mobi-mbri\"></span>\n                        </div> \n                    </div> \n                </header>\n                <div class=\"content\">\n                  <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit repudiandae possimus fugit nesciunt nostrum provident reprehenderit quasi molestiae, veritatis sapiente, pariatur, rem dignissimos esse deleniti eligendi laborum dolor, doloribus repellat?Nesciunt minima corporis fuga, saepe atque obcaecati, asperiores vero, recusandae, odit totam nobis cumque accusamus impedit nam odio minus iure labore! Laborum similique fuga, libero vel minima nulla necessitatibus eaque.\n                  </p>\n                </div>\n            </section>\n        </amp-accordion>\n      </div>\n    </div>\n</div></section>",
+          "_cid": "sHCnbgA8YE",
+          "_anchor": "accordion1-k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"content4 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Style</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <select name=\"alignContent\" title=\"Align Content\">\n            <option value=\"1\">Izquierda</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Derecha</option>\n        </select>\n        <input type=\"range\" title=\"Ancho\" name=\"textWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/cannawix.webp\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row\" mbr-class=\"{'mbr-jc-c' : alignContent == 2, 'mbr-jc-e' : alignContent == 3}\">\n            <div class=\"mbr-col-sm-12 mbr-md-12 mbr-col-lg-{{textWidth}}\">\n                <p class=\"mbr-text align-center mbr-fonts-style mbr-regular\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\">\n                    propaganda</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content4-12",
+          "_isUserblock": true,
+          "_cid": "sIthlTciyj",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer1",
+          "_sourceTheme": "mobirise-amp",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Por Encima\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Por Debajo\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/circulodebaba.webp\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"align-center mbr-p-1\">\n            <p class=\"mbr-text mbr-white mbr-fonts-style \" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                <i><b><a href=\"https://noise.cash/search?q=%23Navonia\" class=\"text-primary\" target=\"_blank\">#Navonia</a> </b></i>- <b>DWeb</b> - ❤ &amp; ☕<br><a href=\"politica-de-privacidad.html\" class=\"text-primary\"><i>Política de Privacidad</i></a><br></p>\n        </div>\n    </div>\n</section>",
+          "_cid": "sHfyz4wdDy",
+          "_anchor": "footer1-j",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
