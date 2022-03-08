@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description>El blog de Navonia</description>
-	<lastBuildDate>Sat, 05 Mar 2022 14:15:02 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 08 Mar 2022 20:51:53 +0000</lastBuildDate>
 	<language>es</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,20 +28,6 @@
 	<height>32</height>
 </image> 
 	<item>
-		<title>La importancia de la educación informática</title>
-		<link>./../la-importancia-de-la-educacion-informatica/index.html</link>
-		
-		<dc:creator><![CDATA[NavoneJuan]]></dc:creator>
-		<pubDate>Fri, 04 Mar 2022 17:04:16 +0000</pubDate>
-				<category><![CDATA[CyberNavonia]]></category>
-		<guid isPermaLink="false">https://navonia.xyz/?p=406</guid>
-
-					<description><![CDATA[Una mirada personal sobre la tecnología y la educación, la importancia de conocer herramientas básicas de informática, el rol d elos adultos, las instituciones, los jóvenes y el futuro.]]></description>
-		
-		
-		
-			</item>
-		<item>
 		<title>¿Qué es un rug pull, cómo funciona y como evitarlos?</title>
 		<link>./../que-es-un-rug-pull-como-funciona-y-como-evitarlos/index.html</link>
 		
@@ -151,6 +137,20 @@
 
 					<description><![CDATA[Tutorial paso a paso para crear una web Descentralizada de manera totalmente gratuita. El término correcto sería Semi-Descentralizada, ya que se usan herramientas centralizadas como primera instancia para poder luego distribuirla en la red
 Herramientas gratuitas: Mobirise - GitHub - Fleek - Freenom - CloudFlare]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>¿Que es Noise.Cash?</title>
+		<link>./../que-es-noise-cash/index.html</link>
+		
+		<dc:creator><![CDATA[NavoneJuan]]></dc:creator>
+		<pubDate>Mon, 24 Jan 2022 22:37:27 +0000</pubDate>
+				<category><![CDATA[General]]></category>
+		<guid isPermaLink="false">https://navonia.xyz/?p=32</guid>
+
+					<description><![CDATA[Luego de estar más de un año en NOISE, un comentario de que es, como lo veo, y algunas ideas o conceptos sobre la plataforma]]></description>
 		
 		
 		
